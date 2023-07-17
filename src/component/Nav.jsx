@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function Nav() {
-  const [navStatus, setNavState] = useState("");
+  const [navStatus, setNavState] = useState("home");
 
   const handleMenuClick = (menu) => {
     setNavState(menu);
