@@ -13,6 +13,7 @@ function Home() {
             className="rounded-full mx-auto"
           />
           <br />
+
           <ReactTypingEffect
             text={["Hello.", "I am Champ.", "I am Software Developer."]}
             typingDelay={300}
@@ -33,6 +34,14 @@ function Home() {
               );
             }}
           />
+          <br />
+          <br />
+          <p>
+            Hello! I am looking for a
+            job in the field of web development to kickstart my career in this
+            industry.
+          </p>
+
           <br />
         </div>
       </div>

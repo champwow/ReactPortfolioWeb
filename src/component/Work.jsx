@@ -14,7 +14,7 @@ import ue_logo from "../Image/ue4.png";
 function Work() {
   return (
     <div className=" mt-32">
-      <h1 className="text-3xl ">WEBSITE</h1>
+      <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">WEBSITE</h1>
       <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 mt-12">
         <div className="mt-12 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition duration-300 hover:-translate-y-1">
           <a href="https://monumental-meringue-6dfffb.netlify.app/#">
@@ -158,7 +158,7 @@ function Work() {
           </div>
         </div>
       </div>
-      <h1 className="text-3xl mt-24">GAME PROJECT</h1>
+      <h1 className="text-3xl mt-24 mb-4 text-4xl tracking-tight font-extrabold text-gray-900">GAME PROJECT</h1>
       <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 mt-12">
         <div className="mt-12 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition duration-300 hover:-translate-y-1">
           <a href="https://www.youtube.com/watch?v=rlHjJx6sKOY&t=426s">
