@@ -16,6 +16,7 @@ import mayaIcon from "../Image/mayaIcon.png";
 import figmaIcon from "../Image/figmaIcon.png";
 import xdIcon from "../Image/xdIcon.png";
 import zbIcon from "../Image/zbIcon.png";
+import bulmaIcon from "../Image/bulmaIcon.png";
 
 function About() {
   return (
@@ -185,6 +186,14 @@ function About() {
               alt="Default avatar"
             ></img>
             <p className="text-lg font-semibold text-gray-900">TAILWIND</p>
+          </div>
+          <div className="flex flex-row gap-2 ">
+            <img
+              className="w-10 h-10 rounded"
+              src={bulmaIcon}
+              alt="Default avatar"
+            ></img>
+            <p className="text-lg font-semibold text-gray-900">BULMA</p>
           </div>
           <div className="flex flex-row gap-2 ">
             <img
